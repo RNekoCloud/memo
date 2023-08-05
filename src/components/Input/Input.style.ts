@@ -10,11 +10,10 @@ export const InputContent = styled.input`
     width: 100%;
     border-radius: 8px;
     overflow: hidden;
-    border: 1px solid #888888;
     padding: 20px;
     outline: none;
+    border: none;
+    box-shadow: 3px 3px 8px 0.3px #888888;
+    font-size: 15px
 
-    &:focus {
-        box-shadow: 5px 5px 8px 0.3px #888888;
-    }
 `
