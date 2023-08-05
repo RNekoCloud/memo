@@ -2,12 +2,21 @@ import styled from "styled-components"
 
 export const StyledButton = styled.button`
     display: block;
-    padding: 18px 35px;
-    height: 30px;
+    padding: 10px 30px;
     outline: none;
     border: none;
     margin: 0 25px;
     background-color: #35155D;
     color: #fff;
     border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.50s;
+
+    &:hover {
+        opacity: 70%;
+    }
 `
