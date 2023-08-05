@@ -5,10 +5,13 @@ interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
-    const { text } = props   
+    const { text } = props 
+    const handler = () => {
+        console.log("Hello...")
+    }  
 
     return (
-            <StyledButton>{ text }</StyledButton>
+            <StyledButton onClick={ handler }>{ text }</StyledButton>
     )
 }
 
