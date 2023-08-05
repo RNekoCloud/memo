@@ -1,10 +1,10 @@
-import { Wrapper } from "./Navbar.style"
+import { Wrapper, Title } from "./Navbar.style"
 
 const Navbar = () => {
     return (
        <>
         <Wrapper> 
-            <h2>Memo</h2>
+            <Title>Memo</Title>
         </Wrapper>
        </>
     )
