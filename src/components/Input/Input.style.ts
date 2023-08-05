@@ -8,6 +8,7 @@ export const InputWrapper = styled.div`
     overflow: hidden;
     flex-wrap: wrap;
     justify-content: space-between;
+    border: 1px solid #888888;
     
 `
 
@@ -17,6 +18,6 @@ export const InputContent = styled.input`
     padding: 20px;
     outline: none;
     border: none;
-    font-size: 15px
-
+    font-size: 15px;
+    border: 1px solid #888888;
 `

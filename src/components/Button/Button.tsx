@@ -8,9 +8,7 @@ const Button = (props: ButtonProps) => {
     const { text } = props   
 
     return (
-        <>
             <StyledButton>{ text }</StyledButton>
-        </>
     )
 }
 
