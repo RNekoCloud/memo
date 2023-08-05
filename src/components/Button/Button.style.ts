@@ -13,8 +13,8 @@ export const StyledButton = styled.button`
     cursor: pointer;
     transition-timing-function: ease-in-out;
     transition-property: all;
-    transition-duration: 1s;
-    transition-delay: 0.50s;
+    transition-duration: 0.100s;
+    transition-delay: 0.100s;
 
     &:hover {
         opacity: 70%;
