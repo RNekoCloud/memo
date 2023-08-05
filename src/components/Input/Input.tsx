@@ -5,8 +5,7 @@ const Input = () => {
     return (
         <>
         <InputWrapper> 
-                <InputContent placeholder="Enter your activity in here...">
-                </InputContent>
+                <InputContent placeholder="Enter your activity in here..."></InputContent>
                 <Button text="Add Activity" />
             </InputWrapper>
         </>
