@@ -8,4 +8,5 @@ export const TaskContainer = styled.div`
 
 export const TaskItem = styled.div`
     width: 30%;
+    margin: 30px;
 `
