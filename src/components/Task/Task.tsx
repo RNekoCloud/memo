@@ -1,8 +1,12 @@
+import Card from "../Card/Card.style"
+
 const Task = () => {
     return(
-        <>
-         <h2>Task</h2>   
-        </>
+        <div>
+            <Card>
+                <h2>Task</h2>    
+            </Card> 
+        </div>
     )
 }
 
