@@ -11,10 +11,7 @@ export const StyledButton = styled.button`
     border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
-    transition-timing-function: ease-in-out;
-    transition-property: all;
-    transition-duration: 0.100s;
-    transition-delay: 0.100s;
+    transition: opacity 0.25s;
 
     &:hover {
         opacity: 70%;
